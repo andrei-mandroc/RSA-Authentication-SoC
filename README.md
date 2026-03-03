@@ -5,7 +5,7 @@ Acest proiect implementeaza un sistem de autentificare securizat utilizand algor
 ## Descriere Proiect
 
 Scopul principal este reducerea timpului de executie pentru operatiile de exponentiere modulara, care reprezinta nucleul computational al algoritmului RSA. Sistemul foloseste partea de logica programabila (PL) a FPGA-ului pentru calcule intensive si sistemul de procesare (PS) bazat pe ARM pentru controlul fluxului de date si interfata cu utilizatorul.
-![Demo Preview](CapturaRezultateAccelerare.PNG)
+
 ## Functionalitati Tehnice
 
 ### 1. Accelerare Hardware (Programmable Logic)
@@ -24,6 +24,8 @@ Conform testelor efectuate, accelerarea hardware ofera o imbunatatire semnificat
 * **Executie Software (ARM Cortex-A9):** Procesare secventiala cu latenta ridicata.
 * **Executie Hardware (FPGA Fabric):** Reducerea timpului de calcul prin paralelizarea operatiilor de inmultire modulara.
 * **Speedup:** Sistemul hibrid asigura o validare a mesajelor mult mai rapida decat o implementare pur software.
+
+![Demo Preview](CapturaRezultateAccelerare.PNG)
 
 ## Tehnologii Utilizate
 
