@@ -42,4 +42,3 @@ Conform testelor efectuate, accelerarea hardware ofera o imbunatatire semnificat
 
 ---
 **Autor:** Mandroc Andrei Ovidiu
-**Context:** Proiect realizat pentru disciplina Sisteme pe Cip (SoC).
